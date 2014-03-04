@@ -13,7 +13,6 @@
     },
     asyncStart: function() {
       isAsync = true;
-      console.log('async starting :D');
       clearTimeout(doneTimeout);
     },
     asyncEnd: function() {
